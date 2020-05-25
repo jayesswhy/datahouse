@@ -10,5 +10,5 @@ for row in sheet.iter_rows():
        if cell.value != true_value.value:
           cell.fill = PatternFill(start_color="feedc6", end_color="feedc6", fill_type="solid")
 # creates a spreadsheet with highlighted cells and non-highlighted cells
-wb.save('names_revised1.xlsx')
+wb.save('names_revised.xlsx')
 
